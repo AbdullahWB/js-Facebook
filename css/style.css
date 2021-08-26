@@ -339,11 +339,6 @@ sign up form strat
     top: 20px;
     right: 15px;
     cursor: pointer;
-    transition: all linear 0.2s;
-    -webkit-transition: all linear 0.2s;
-    -moz-transition: all linear 0.2s;
-    -ms-transition: all linear 0.2s;
-    -o-transition: all linear 0.2s;
 }
 
 .form-bg .form .fb-form .form-text i:hover {
