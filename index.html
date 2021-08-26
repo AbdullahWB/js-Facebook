@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <script src="https://kit.fontawesome.com/6d84db39bd.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/6d84db39bd.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/Facebook-logo.png">
+</head>
+
+<body>
+    <!-- facebook-login start -->
+    <div class="full-wapper main-bg">
+        <div class="container main">
+            <div class="recent-log">
+                <h1><a href="www.facebook.com">facebook</a></h1>
+                <h2>Recent logins</h2>
+                <p>Click your picture or add an account</p>
+                <div class="accunt">
+                    <a href="https://www.facebook.com/profile.php?id=100024446805573">
+                        <img src="images/abdullah.jpg" alt="abdullah">
+                        <p>mohammad</p>
+                    </a>
+                    <a href="https://www.facebook.com/?stype=lo&jlou=Afc-WDKCLaqI9jxoUxc1AcPVfFWUStO3aiSOzegx5zUHHAN6GNf_j9_HjOLoJarlbHuvKvd3K1tXITnuapTXjUb3KYlAcFQwfaSI2BNKfoKwAw&smuh=40707&lh=Ac-QFq05WZoiKgQBEtg">
+                        <div class="overlay">
+                            <i class="fas fa-plus-circle"></i>
+                        </div>
+                        <small>add account</small>
+                    </a>
+                </div>
+            </div>
+            <div class="new-log">
+                <div class="form">
+                    <form action="">
+                        <input type="email" placeholder="Email address or phone number">
+                        <input type="password" placeholder="password">
+                        <button type="submit">Log in</button>
+                        <a href="https://www.facebook.com/">Forgotten password?</a>
+                        <button class="popup" id="trigger">create new account</button>
+                </div>
+                <p> <a href="#">Create a Page</a> for a celebrity, band or business.</p>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- facebook-login emds -->
+    <!-- sign up form strat -->
+    <div class="full-wrapper form-bg" id="model">
+        <div class="container form">
+            <div class="fb-form">
+                <div class="form-text">
+                    <h3>Sing Up</h3>
+                    <p>It's quick and easy.</p>
+                    <i class="far fa-times-circle" id="close"></i>
+                </div>
+                <form action="">
+                    <div class="form-input">
+                        <input type="text" placeholder="First Name" id="fName">
+                        <input type="text" placeholder="Surname" id="sName">
+                        <input type="email" placeholder="Mobile number or email address" id="eMail">
+                        <input type="password" placeholder="New password" id="pass">
+                        <p>Date of birth:</p>
+                        <input type="date" placeholder="Date of birth" id="DoB">
+                        <p>Gender:</p>
+                        <input type="gender" placeholder="Gender" id="gEnder">
+                        <small>By clicking Sign Up, you agree to our <a href="#">Terms, Data Policy</a> and Cookie <a href="#">Policy.</a> You may receive SMS notifications from us and can opt out at any time.</small>
+                        <button type="submit" onclick="return subm();">sing up</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- sign up form ends -->
+    <script src="js/custom.js"></script>
+</body>
+
+</html>

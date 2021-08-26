@@ -1,0 +1,418 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+img {
+    vertical-align: middle;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.full-wrapper {
+    width: 100%;
+}
+
+.container {
+    width: 985px;
+    margin: 0 auto;
+}
+
+
+/*===================
+common css ends
+===================*/
+
+
+/*===================
+facebook-login start
+===================*/
+
+.main-bg {
+    height: 750px;
+    background-color: #F0F2F5;
+}
+
+.main-bg .main {
+    height: 750px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-bg .main .recent-log {
+    flex-basis: 38%;
+    /* background-color: #f5d4d4; */
+}
+
+.main-bg .main .recent-log h1 {
+    margin-top: 100px;
+}
+
+.main-bg .main .recent-log h1 a {
+    font-size: 38px;
+    color: #1877F2;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    padding-left: 10px;
+}
+
+.main-bg .main .recent-log h2 {
+    font-size: 28px;
+    color: #26282B;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    padding-left: 10px;
+}
+
+.main-bg .main .recent-log p {
+    font-size: 15px;
+    color: #606770;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    padding-left: 10px;
+}
+
+.main-bg .main .recent-log .accunt {
+    width: 100%;
+    height: 210px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-bg .main .recent-log .accunt a {
+    flex-basis: 45%;
+    border: 1px solid #DDDFE2;
+    background-color: #ffffff;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    transition: all linear 0.2s;
+    -webkit-transition: all linear 0.2s;
+    -moz-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+}
+
+.main-bg .main .recent-log .accunt a:hover {
+    box-shadow: 0px 0px 10px hsla(216, 3%, 66%, 0.6);
+}
+
+.main-bg .main .recent-log .accunt a img {
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.main-bg .main .recent-log .accunt a p {
+    font-size: 20px;
+    color: #222;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 43px;
+}
+
+.main-bg .main .recent-log .accunt a .overlay {
+    width: 100%;
+    height: 168px;
+    background-color: #F5F6F7;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.main-bg .main .recent-log .accunt a .overlay i {
+    font-size: 45px;
+    line-height: 167px;
+    padding-left: 62px;
+    color: #1877F2;
+}
+
+.main-bg .main .recent-log .accunt a small {
+    font-size: 15px;
+    color: #1877F2;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    padding-left: 25px;
+    text-transform: uppercase;
+    line-height: 43px;
+}
+
+.main-bg .main .new-log {
+    flex-basis: 41%;
+}
+
+.main-bg .main .new-log .form {
+    width: 100%;
+    height: 350px;
+    margin-top: 135px;
+    background-color: #ffffff;
+    border: 1px solid #DDDFE2;
+    box-sizing: border-box;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 0px 0px 10px hsla(216, 3%, 66%, 0.6);
+}
+
+.main-bg .main .new-log .form input {
+    width: 365px;
+    height: 62px;
+    border: none;
+    border: 1px solid #DDDFE2;
+    padding-left: 15px;
+    margin: 5px 17px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.main-bg .main .new-log .form input:first-child {
+    margin-top: 10px;
+}
+
+.main-bg .main .new-log .form button {
+    width: 365px;
+    height: 45px;
+    margin: 10px 17px;
+    font-size: 21px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #ffffff;
+    background-color: #1877F2;
+    border: 1px solid #1877F2;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.main-bg .main .new-log .form a {
+    color: #1877F2;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: 15px;
+    padding-left: 120px;
+    position: relative;
+}
+
+.main-bg .main .new-log .form a::after {
+    content: '';
+    width: 365px;
+    height: 1px;
+    background-color: #83838388;
+    position: absolute;
+    bottom: -18px;
+    left: 15px;
+}
+
+.main-bg .main .new-log .form .popup {
+    width: 200px;
+    height: 50px;
+    margin: 45px 97px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    text-transform: capitalize;
+    color: #ffffff;
+    background-color: #42B72A;
+    border: 1px solid #42B72A;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.main-bg .main .new-log p {
+    padding-top: 12px;
+    text-align: center;
+    font-size: 13px;
+    color: #222;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.main-bg .main .new-log p a {
+    font-size: 15px;
+    color: rgb(24, 24, 24);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+
+/*===================
+facebook-login emds
+===================*/
+
+
+/*===================
+sign up form strat
+===================*/
+
+.form-bg {
+    height: 600px;
+    background-color: #fcfcfdaf;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.form-bg .form {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-bg .form .fb-form {
+    width: 435px;
+    height: 505px;
+    background-color: #ffff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 0px 0px 5px #dfdfdf;
+}
+
+.form-bg .form .fb-form .form-text {
+    width: 100%;
+    height: 80px;
+    position: relative;
+}
+
+.form-bg .form .fb-form .form-text h3 {
+    font-size: 32px;
+    color: #222;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+.form-bg .form .fb-form .form-text p {
+    font-size: 14px;
+    color: rgb(51, 50, 50);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    padding-left: 15px;
+    position: relative;
+}
+
+.form-bg .form .fb-form .form-text p::after {
+    content: '';
+    position: absolute;
+    width: 435px;
+    height: 1px;
+    background-color: rgb(201, 201, 201);
+    bottom: -12px;
+    left: 0px;
+}
+
+.form-bg .form .fb-form .form-text i {
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    cursor: pointer;
+    transition: all linear 0.2s;
+    -webkit-transition: all linear 0.2s;
+    -moz-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+}
+
+.form-bg .form .fb-form .form-text i:hover {
+    color: red;
+}
+
+.form-bg .form .fb-form .form-input input {
+    width: 410px;
+    height: 40px;
+    margin: 5px 17.5px 5px 11px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    box-sizing: border-box;
+    border: 1px solid #dfdfdf;
+    padding-left: 5px;
+    font-size: 14px;
+}
+
+.form-bg .form .fb-form .form-input input:first-child {
+    width: 196px;
+    height: 40px;
+    margin: 8px 5px 5px 11px;
+}
+
+.form-bg .form .fb-form .form-input input:nth-child(2) {
+    width: 196px;
+    height: 40px;
+    margin: 8px 5px 5px 8px;
+}
+
+.form-bg .form .fb-form .form-input p {
+    font-size: 12px;
+    color: #8f8f8f;
+    padding: 5px 12px;
+}
+
+.form-bg .form .fb-form .form-input small {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    color: #5c5c5c;
+    margin-left: 13px;
+    display: inline-block;
+    padding-top: 5px;
+}
+
+.form-bg .form .fb-form .form-input button {
+    width: 195px;
+    height: 35px;
+    background-color: #00A400;
+    border: 1px solid #00A400;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 20px;
+    color: #F5F6F7;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin: 20px 120px;
+    cursor: pointer;
+}
+
+
+/*===================
+sign up form ends
+===================*/
